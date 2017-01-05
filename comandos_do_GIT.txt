@@ -40,4 +40,9 @@ git remote add origin https://github.com/filypef/curso-git.git - Adiciona o dire
 
 git push - Manda os arquivos da máquina para o diretorio remoto.
 
-git pull - Atualizado o projeto local com o atualizado remoto. 
+git pull - Atualizado o projeto local com o atualizado remoto.
+
+
+
+
+TESTETSTETSTETSTETSTETSTETSTETSTETSTETSTETS 
