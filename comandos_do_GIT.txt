@@ -1,0 +1,43 @@
+Comandos do GIT
+
+******************************************************************
+Configura seus dados no projeto
+git config user.name "Filype Moraes Ferreira"
+git config user.email "filype.ferreira@prestadores.amil.com.br"
+
+Global
+git config --global user.name "Filype Moraes Ferreira"
+git config --global user.email "filype.ferreira@prestadores.amil.com.br"
+******************************************************************
+
+git init - A pasta passar a ser controlada pelo git
+
+git clone - Copia todo o projeto para sua máquina
+
+git tag - Marcado de versões
+
+git checkout nome-arquivo - Troca de versão dos arquivos ou branch
+
+git diff ou diff nome-tag1 nome-tag2 - Verifica o que foi alterado no arquivo
+
+git status - Verifica o estado atual do seu repositório
+
+git add - Adiciona o arquivo no controle do git
+
+git commit -m "Contexto" - Salvar as alterações realizadas "Entregar as alterações" (-m) flag -m indica que o conteudo a seguir é uma mensagem. git commit -a - Da commit em todos os arquivos alterados de uma vez.
+
+git commit -a - Da commit em todos os arquivos de uma unica vez
+
+git log - Mostra todos os commit que foram realizados 
+
+git whatchanged - Mostra todos os commit realizado e o arquivo que foi alterado.
+
+git whatchanged -p - Mostra o que foi alterado em cada commit
+
+git remote - Mostra qual é o diretorio remoto que estou utilizando. 
+
+git remote add origin https://github.com/filypef/curso-git.git - Adiciona o diretorio remoto
+
+git push - Manda os arquivos da máquina para o diretorio remoto.
+
+git pull - Atualizado o projeto local com o atualizado remoto. 
